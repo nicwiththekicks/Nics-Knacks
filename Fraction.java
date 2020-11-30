@@ -41,6 +41,7 @@ int newNum = x.num * y.num;
 int newDen = x.den * y.den;
 System.out.println(newNum + "/" + newDen);	
 }
+
 public static void divFraction(Fraction x, Fraction y) {
 System.out.print(x.num + "/" + x.den + " / " + y.num + "/" + y.den + " = ");
 int newNum = x.num * y.den;
